@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    
+    <!-- Leaflet's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/> 
+
+    <!-- Leaflet's JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | IP Address Tracker</title>
+
+    <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="./css/main.css"/>
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="./script/script.js"></script>
+    <!-- <style>
+      
+    </style> -->
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="container__header">IP Address Tracker</h1>
+
+      <form>
+
+        <input type="text" name="IP" class="search-box" placeholder="Search for any IP address or domain"/>
+        
+        <button type="submit" class="btn"></button>
+
+      </form>
+
+      <div class="data">
+
+        <div class="data__content data__ip">
+          <h4>IP Address</h4>
+          <p class="data__ip__text">11.111.1.11.1</p>
+        </div>
+
+        <div class="data__content data__location">
+          <h4>Location</h4>
+          <p class="data__location__text">Cairo, Egypt</p>
+
+        </div>
+
+        <div class="data__content data__time">
+          <h4>Timezone</h4>
+          <p class="data__time__text">UTC -5.00</p>
+
+        </div>
+
+        <div class="data__content data__isp">
+          <h4>ISP</h4>
+          <p class="data__isp__text">SpaceX, starLink</p>
+
+        </div>
+
+      </div>
+
+      <div class="map-container" id="map"></div>
+    </section>
+      <!-- UTC add offset value dynamically using the API -->
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/noha-mohammed-bahaa-el-din-5408a5112/">Noha M. Bahaa El-Din</a>.
+    </footer>
+    
+  </body>
+</html>
