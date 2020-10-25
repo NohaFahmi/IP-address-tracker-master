@@ -39,6 +39,12 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 - [IP Geolocation API by IPify](https://geo.ipify.org/)
 - [LeafletJS](https://leafletjs.com/)
 
+## How TO Run This Project
+
+1. Download/Clone this repository
+2. cd into the new folder and Install all dependancies
+  - put `npm install` on the terminal
+  
 ## Community Sponsors
 
 A massive thank you to our community sponsors!
